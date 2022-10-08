@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+
+.Section{
+
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+}
+
+.Map{
+    margin: auto;
+    background-color: rgb(151, 161, 161);
+    width: 76%;
+}
+.Container1{
+    margin: auto;
+    width: 76%;
+    height: 85%;
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+
+.pic{
+    width: 49%;
+    height: 47.9%;
+    /* background-color: #f8dada; */
+    /* border-radius: 5%; */
+    /* box-shadow: 10px 10px 10px rgb(213 160 182); */
+}
+
+.grid{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-content: space-between;
+justify-content: space-between;
+width: 49%;
+height: 47.9%;
+/* border: 2px solid black; */
+}
+
+.SmallPic{
+    width: 49.3%;
+    height: 49%;
+    background-color: #f8dada;
+    /* border-radius: 5%; */
+    /* box-shadow: 10px 10px 10px rgb(213 160 182); */
+
+}
+
+.Heading{
+margin: 1% auto 3% auto;
+width: 76%;
+height: 4%;
+font-family: 'Mulish';
+font-weight: 800;
+font-size: 40px;
+}
+
+.Container2{
+    margin: auto auto 3% auto;
+    width: 76%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+
+.Pic2{
+
+    width: 23.5%;
+    height: 30%;
+    /* background-color: #f8dada; */
+    /* border-radius: 5%; */
+    /* box-shadow: 10px 10px 10px rgb(213 160 182); */
+}
+.Container_Ca{
+    margin: auto auto 5% auto;
+    width: 76%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+
+
+.Pic_Ca{
+
+    width: 32%;
+    height: 48.2%;
+    /* background-color: #f8dada; */
+    /* border-radius: 5%; */
+
+}
+.carousel{
+    width: 100%;
+    height: 21%;
+    background-color: #f8dada;
+}
+
